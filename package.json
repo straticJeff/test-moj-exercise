@@ -1,0 +1,27 @@
+{
+  "license": "MIT",
+  "main": "src/express.js",
+  "scripts": {
+    "start": "node dist/express.js",
+    "build": "babel src --out-dir dist",
+    "start-dev": "nodemon --exec babel-node $NODE_DEBUG_OPTION src/express.js",
+    "test": "jest",
+    "test-dev": "jest --watchAll",
+    "test-coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.4",
+    "express": "^4.17.1",
+    "regenerator-runtime": "^0.13.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "jest": "^24.8.0",
+    "babel-jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  }
+}
