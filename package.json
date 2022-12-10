@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "regenerator-runtime": "^0.13.2"
   },
   "devDependencies": {
